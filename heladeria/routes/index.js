@@ -18,7 +18,7 @@ router.get('/about', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contacto' });
 });
-
+ 
 /* API endpoint: datos en JSON */
 router.get('/api/data', function(req, res, next) {
   res.json({
